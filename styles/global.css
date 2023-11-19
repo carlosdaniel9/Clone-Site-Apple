@@ -1,0 +1,164 @@
+/* Modificando o header */
+header {
+    background-color: #000000;
+    color: #ffffff;
+    height: fit-content;
+    opacity: 0.9; /* opacidade do header nesse caso, no background color */
+    position: sticky; /* para o header ficar aparecendo sempre no topo do site  */
+    top: 0;   /* quer dizer que vai ficar no top0*/
+    z-index: 1; 
+    padding: 12px 0 ;
+}
+/* Modificando o Ul  */
+header nav ul {
+    margin: 0 auto; /* a marge em cima e embaixo vai ser 0, a laterais sera automatica*/
+    width: fit-content;
+    display: flex;
+    align-items: center; /* centraliza os li nesse caso, no centro */
+    gap: 1rem;  /* é o espaço entre um li e outro*/
+    padding: 0 2rem;
+
+
+}
+
+/* Modificando o li */
+header nav ul li {
+    min-width: fit-content; /* o tamanho minimo para o conteudo dentro da tag li */
+    height: fit-content;
+    padding: 0 0.75rem;
+    cursor: pointer; /* para aparecer a mãosinha quando o mouse estiver em cima dos li */
+    font-size: medium;
+    list-style: none; /* tiras a bolinha da da lista */
+} 
+
+main section {
+    text-align: center;
+    position: relative;
+}
+
+main section img {
+    width: 100%;
+    height: auto;
+}
+
+main section a {
+    color: blue;
+    list-style: 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+main section a:hover { /* para quando passar o mouse em cima do link, get an ealy look, vai aparecer a linha em baixo, mostrando que é um link */
+    text-decoration: underline;
+}
+
+
+main .main-section h1 {
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 4rem;
+    letter-spacing: -0.28px;
+}
+
+main .main-section h2 {
+    color: rgb(155, 155, 155) ;
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 2rem;
+    letter-spacing: 0.11px;
+    margin-bottom: 14px;
+}
+
+main .main-section sub {
+    font-size: 0.9rem;
+}
+
+
+/* Selecioando a div texto */
+main .main-section .texto {
+    position: absolute;
+    left: 50%; /* para ficar alinhado ao centro */ 
+    transform: translateX(-50%); 
+    display: flex;
+    flex-direction: column; /* para colocar os texto abaixo um do ourtro */
+    margin-top: 51px;
+}
+
+
+main .spirited-section > div{
+    position: absolute;
+    left: 50%; /* para ficar alinhado ao centro */ 
+    transform: translateX(-50%); 
+}
+
+main .spirited-section > div:last-child {
+    bottom: 50px;
+}
+main .spirited-section > div:first-child {
+    top: 105px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 60%;
+
+}
+
+main .spirited-section > div:first-child p {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+    color: #DED2B9;
+    letter-spacing: -0.6px;
+
+}
+
+main .spirited-section p {
+    color: white;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.11px;
+}
+
+main .spirited-section span {
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    display: block;
+    letter-spacing: 0.23px;
+    
+}
+
+main .iphone-section h2 {
+    color: #0f0f0f;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 4rem;
+    letter-spacing: -0.28px;
+}
+
+main .iphone-section p {
+    color: #1d1d1f;
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 2rem;
+    letter-spacing: 0.11px;
+    margin-bottom: 14px;
+}
+main .iphone-section .link-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+}
+
+/* Selecioando a div texto */
+main .iphone-section .texto {
+    position: absolute;
+    left: 50%; /* para ficar alinhado ao centro */ 
+    transform: translateX(-50%); 
+    display: flex;
+    flex-direction: column; /* para colocar os texto abaixo um do ourtro */
+    margin-top: 51px;
+}
